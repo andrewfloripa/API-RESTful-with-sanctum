@@ -31,3 +31,5 @@ Para obter um token de autenticação, envie uma requisição POST para `/api/v1
     "password": "123",
     "device_name": "thunther"
 }
+```
+Obs. execute php artisan db:seed --class=UserSeeder para criar o usuário.
